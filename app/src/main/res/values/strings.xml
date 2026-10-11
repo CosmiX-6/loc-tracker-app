@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loc Tracker</string>
+
+    <string name="ch_tracking">Active sharing</string>
+    <string name="ch_handoff">Ready to send in WhatsApp</string>
+    <string name="ch_events">Session events</string>
+
+    <plurals name="tracking_title">
+        <item quantity="one">Sharing with %d recipient</item>
+        <item quantity="other">Sharing with %d recipients</item>
+    </plurals>
+    <string name="tracking_starting">Starting…</string>
+    <string name="stop_all">Stop all</string>
+    <string name="tier_full">GPS at full accuracy</string>
+    <string name="tier_stationary">Standing still – GPS slowed to save battery</string>
+    <string name="tier_saver">Battery low – power-saving GPS</string>
+    <string name="tier_critical">Battery critical – minimal GPS</string>
+
+    <string name="n_live_title">Start Live Location for %s</string>
+    <string name="n_live_text">Tap to open the chat, then choose Attach › Location › Share live location. WhatsApp requires you to start it yourself.</string>
+    <string name="n_link_title">Location update for %s</string>
+    <string name="n_link_text">Tap to open WhatsApp with your location ready, then press Send.</string>
+    <string name="n_ended_title">Sharing with %s ended</string>
+    <string name="n_ended_plain">The session expired and tracking for this recipient stopped.</string>
+    <string name="n_ended_live">If you started Live Location in WhatsApp, stop it there too: open the chat › Stop sharing. This app cannot stop it for you.</string>
+    <string name="n_renew_title">Live Location for %s ends soon</string>
+    <string name="n_renew_text">WhatsApp will stop sharing in about 5 minutes. Open the chat to share again if you still need to.</string>
+    <string name="n_resume_title">Tap to resume location sharing</string>
+    <string name="n_resume_text">Android blocked a background restart. Open the app to continue, and allow location \"All the time\" for reliable background sharing.</string>
+    <string name="handoff_gone">This update is no longer available.</string>
+    <string name="whatsapp_missing">WhatsApp is not installed on this phone.</string>
+</resources>
